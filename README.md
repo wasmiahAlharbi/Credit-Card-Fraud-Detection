@@ -16,7 +16,6 @@ A machine learning project to detect fraudulent credit card transactions using t
 - [Evaluation](#evaluation)
 - [Results & Comparison](#results--comparison)
 - [Reproducibility](#reproducibility)
-- [Repository Structure](#repository-structure)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -149,16 +148,7 @@ RANDOM_STATE = 42
 - Save environment dependencies to `requirements.txt` or `environment.yml`.
 - Persist preprocessing objects and trained model files using `joblib` or `pickle`.
 
-## Repository Structure (suggested / typical)
-- data/                     # Place dataset here (not committed)
-- notebooks/                # EDA and experiments
-- src/                      # Training, evaluation scripts, utilities
-- models/                   # Saved model artifacts
-- results/                  # Evaluation results, plots, logs
-- requirements.txt
-- README.md
 
-Adjust above listing to match the actual repository files.
 
 ## Contributing
 Contributions, bug reports, and feature requests are welcome.
